@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.source       = { :git => "https://github.com/woxtu/NSString-RemoveEmoji.git", :tag => s.version }
   s.source_files = 'Sources/*.swift'
+  s.swift_version = '4.1'
   s.requires_arc = true
 end
